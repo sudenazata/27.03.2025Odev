@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ana Sayfa</title>
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            background: linear-gradient(135deg, #d4a5ff, #f3caff);
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 600px;
+            margin: 50px auto;
+            background: white;
+            padding: 20px;
+            border-radius: 15px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s;
+        }
+        .container:hover {
+            transform: scale(1.03);
+        }
+        h1 {
+            color: #6a0dad;
+            font-size: 28px;
+        }
+        .menu {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            margin-top: 20px;
+        }
+        .menu a {
+            text-decoration: none;
+            background: #a065d4;
+            color: white;
+            padding: 12px;
+            border-radius: 8px;
+            font-size: 18px;
+            display: block;
+            transition: background 0.3s;
+        }
+        .menu a:hover {
+            background: #8a2be2;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🍽 Ana Sayfa</h1>
+        <p>Lütfen bir kategori seçin:</p>
+        <div class="menu">
+            <a href="yemekler.html">🍔 Yemekler</a>
+            <a href="icecekler.html">🥤 İçecekler</a>
+            <a href="tatlilar.html">🍰 Tatlılar</a>
+        </div>
+    </div>
+</body>
+</html>
